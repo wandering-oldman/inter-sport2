@@ -1,8 +1,8 @@
-#EXTM3U  <!--work-point-->
+#EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1000000
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="1080p50",NAME="1080p50",AUTOSELECT=YES,DEFAULT=YES
+#EXT-X-STREAM-INF:BANDWIDTH=2144000,RESOLUTION=1920x1080,CODECS="avc1.4d402a,mp4a.40.2",VIDEO="1080p50",FRAME-RATE=50
 http://trendystream.me:80/play/live.php?mac=00:1A:79:0D:A1:24&stream=1032529&extension=m3u8&play_token=
-#http://boski.streamtv.to:8080/live/BesiKercovatr/JGW7ZaLghd/112231.m3u8
-#http://boski.streamtv.to:8080/live/BesiKercovatr/JGW7ZaLghd/112194.m3u8
-#http://nonamevos.com/play/live.php?mac=00:1A:79:23:B7:39&stream=40176&extension=m3u8
-#https://wandering-oldman.github.io/inter-sport2238/hub-1.m3u8
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="540p50",NAME="540p50",AUTOSELECT=YES,DEFAULT=YES
+#EXT-X-STREAM-INF:BANDWIDTH=644000,RESOLUTION=960x540,CODECS="avc1.4d401f,mp4a.40.2",VIDEO="540p50",FRAME-RATE=50
+http://trendystream.me:80/play/live.php?mac=00:1A:79:0D:A1:24&stream=1032529&extension=m3u8&play_token=
